@@ -1,0 +1,18 @@
+name: Masks
+version: '${project.version}'
+main: com.github.spook.masks.Masks
+api-version: 1.8.8
+depend: [ ProtocolLib ]
+authors: [ spook ]
+description: A simple masks plugin
+commands:
+  test:
+    description: Test command
+    usage: /test
+    aliases: [ t ]
+    permission: masks.test
+  equipped:
+    description: Shows the masks you have equipped
+    usage: /equipped
+    aliases: [ e ]
+    permission: masks.equipped
